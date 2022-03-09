@@ -22,7 +22,8 @@ const carregarImagens = async  () => {
 
     const tagImagens = imagens.message.map(criarImg)
 
-    container.replaceChildren(...tagImagens)
+    container.replaceChildren(...tagImagens).add
+
 }
 
 document
